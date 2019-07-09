@@ -1,0 +1,16 @@
+import random
+n=input("Hello ! enter your name")
+print()
+print(n)
+print("Well {} ,i am thinking of sleeping".format(n))
+
+g=random.randint(1,10)
+for i in range(5):
+    m=int(input("take a guess"))
+    if m==g:
+        print("you win")
+        break
+    elif m<g:
+        print("your number is too low")
+    else:
+        print("youe number is too high")

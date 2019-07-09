@@ -1,0 +1,7 @@
+movie=['dangal','jthj','wanted']
+year=[2000,2001,2002]
+l=[]
+for i,j in zip(movie,year):
+    l.append(i)
+    l.append(j)
+print(l)

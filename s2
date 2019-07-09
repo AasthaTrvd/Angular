@@ -1,0 +1,6 @@
+i=1
+j=6
+for i in range(j):
+    print()
+    for j in range(5 -i) :
+        print("*",end=" ")
